@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Demo</title>
+</head>
+<body>
+  <h1 id="greeting">Hello, this will be replaced!</h1>
+  <button onclick="changeGreeting()">Change Greeter (Client-side)</button>
+  <script>
+    function changeGreeting(){
+      document.getElementById('greeting').textContent = "Hello from the Client!";
+    }
+  </script>
+</body>
+</html>
